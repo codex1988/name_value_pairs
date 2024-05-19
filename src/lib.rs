@@ -3,7 +3,7 @@ pub fn is_unique_name(storage: &Vec<String>, name: &str) -> bool {
     for item in storage {
         let item: Vec<&str> = item.trim().split(' ').collect();
         if item[0] == name.trim() {
-            println!("It's the same name twice. It's dropped");
+            println!("It's the same name twice. Skipped!");
             return false
         } else {
             continue;
