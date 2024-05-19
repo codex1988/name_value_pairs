@@ -1,6 +1,6 @@
-use assert_cmd::Command;
+use name_value_pairs::*;
 #[test]
-fn run() {
-    let mut cmd = Command::cargo_bin("name_value_pairs").unwrap();
-    cmd.assert().success();
+fn t_is_unique_name() {
+    let x:Vec<String> = vec!["Alice".to_string(), "Bob".to_string(), "Charlie".to_string()];
+    assert!(is_unique_name(&x, "Alice"));
 }

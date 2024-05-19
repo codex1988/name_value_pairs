@@ -7,3 +7,7 @@ edition = "2021"
 
 [dev-dependencies]
 assert_cmd = "2.0.14"
+
+[lib]
+name = "name_value_pairs"
+path = "src/lib.rs"
