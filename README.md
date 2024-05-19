@@ -1,4 +1,5 @@
-> This is an exercise from PPP by Stroustrup (Part 1, Chapter 4, Ex. 19, 20, 21) re-written in Rust
+> This is an exercise from PPP by Stroustrup (Part 1, Chapter 4, Ex. 19, 20, 21) re-written in Rust;
+> The goal here is to be pretty close to production development despite relatively simple problem to solve;
 ---
 19. Write a program where you first enter a set of name-and-value pairs, such
 as Joe 17 and Barbara 22. For each pair, add the name to a vector called
