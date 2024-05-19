@@ -12,7 +12,7 @@ program will output the corresponding score or name not found.
 21. Modify the program from exercise 19 so that when you enter an integer,
 the program will output all the names with that score or score not found.
 ---
-### Problems and expetations
+### Problems and expectations
 - Repetitive chunks of code in main.rs
 - Error-prone input and lack of handling it properly (a user must behave consciously and be awared of the program's expectation; it's in general unacceptalbe)
 - Current implementation can't provide a decent level of testing (e.g. build_pairs() function expect user's input from keyboard)
