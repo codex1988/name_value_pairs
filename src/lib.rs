@@ -39,11 +39,11 @@ pub fn get_names(pairs: &Vec<String>) -> Vec<String> {
     }
     result
 }
-pub fn get_scores(pairs: &Vec<String>) -> Vec<u8> {
-    let mut result: Vec<u8> = Vec::new();
+pub fn get_scores(pairs: &Vec<String>) -> Vec<i32> {
+    let mut result: Vec<i32> = Vec::new();
     for item in pairs {
         let temp: Vec<&str> = item.split(' ').collect();
-        result.push(temp[1].trim().parse::<u8>().expect("failed"));
+        result.push(temp[1].trim().parse::<i32>().expect("failed"));
     }
     result
 }
