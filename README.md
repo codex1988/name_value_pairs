@@ -15,4 +15,4 @@ the program will output all the names with that score or score not found.
 ### Problems and expectations
 - Repetitive chunks of code in main.rs
 - Error-prone input and lack of handling it properly (a user must behave consciously and be awared of the program's expectation; it's in general unacceptalbe)
-- Current implementation can't provide a decent level of testing (e.g. build_pairs() function expect user's input from keyboard)
+- Current implementation can't provide a decent level of testing (e.g. build_pairs() function expects user's input from keyboard)
